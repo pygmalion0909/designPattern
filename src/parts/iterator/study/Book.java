@@ -1,6 +1,7 @@
 package parts.iterator.study;
 
 public class Book {
+	
 	private String name;
 	
 	public Book(String name) {

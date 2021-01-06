@@ -4,10 +4,10 @@ public class Main {
 	
 	public void iteratorTest() {
 		BookShelf bookShelf = new BookShelf(4);
-		bookShelf.appendBook(new Book("80¿œ∞£ ºº∞Ë¿œ¡÷"));	
-		bookShelf.appendBook(new Book("º∫º≠"));	
-		bookShelf.appendBook(new Book("Ω≈µ•∑º∂Û"));	
-		bookShelf.appendBook(new Book("≈∞¥Ÿ∏Æ æ∆¿˙ææ"));
+		bookShelf.appendBook(new Book("80ÏùºÍ∞Ñ"));	
+		bookShelf.appendBook(new Book("ÏÑ±Í≤Ω"));	
+		bookShelf.appendBook(new Book("ÎèÖÏÑúÎ≤ï"));	
+		bookShelf.appendBook(new Book("Îç∞ÎØ∏Ïïà"));
 		
 		Iterator it = bookShelf.iterator();
 		while(it.hasNext()) {

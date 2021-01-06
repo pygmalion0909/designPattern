@@ -10,6 +10,7 @@ public class BookShelfIterator implements Iterator{
 		this.index = 0;
 	}
 	
+	@Override
 	public boolean hasNext() {
 		if(index < bookShelf.getLength()) {
 			return true;
@@ -18,6 +19,7 @@ public class BookShelfIterator implements Iterator{
 		}
 	}
 	
+	@Override
 	public Object next() {
 		Book book = bookShelf.getBookAt(index);
 		index++;
