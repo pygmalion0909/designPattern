@@ -8,14 +8,18 @@ public class MenuBox implements Aggregate{
 	private List<Samsung> menuList = new ArrayList<>();
 	
 	/**
-	 * @title menu item setting
+	 * menu item setting
 	 */
-	public void setMenu(List<Samsung> menu) {
-		this.menuList.addAll(menu);
+	public void setMenu(List<Samsung> lunch) {
+		this.menuList.addAll(lunch);
+	}
+	
+	public int getMenuSize() {
+		return menuList.size();
 	}
 	
 	/**
-	 * @title only menu item iterator code
+	 * only menu item iterator code
 	 */
 	@Override
 	public Iterator iterator() {
