@@ -1,12 +1,12 @@
 package parts;
 
-import parts.iterator.study.Main;
+import parts.iterator.example1.IteratorExMain1;
 
 public class PatternApplication {
 
 	public static void main(String[] args) {
-		Main main = new Main();
-		main.iteratorTest();
+		IteratorExMain1 example1 = new IteratorExMain1();
+		example1.iteratorTest();
 	}
 
 }

@@ -1,6 +1,6 @@
 package parts.iterator.study;
 
-public class Main {
+public class IteratorMain {
 	
 	public void iteratorTest() {
 		BookShelf bookShelf = new BookShelf(4);
